@@ -7,9 +7,9 @@ deploy:
   # add this line after travis setup
   skip_cleanup: true
   provider: npm
-  email: mutouji1@163.com
+  email: 59022665@qq.com
   api_key:
-    secure: 69f29181-326a-4c76-8ecb-8b5a0c138666
+    secure: VqFWtsbskTN--ag3cXknVQ
   on:
     tags: true
     repo: buzhoumountain/masks-js
