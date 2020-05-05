@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - node
+  - '10'
+
+deploy:
+  # add this line after travis setup
+  skip_cleanup: true
+  provider: npm
+  email: mutouji1@163.com
+  api_key:
+    secure:
+  on:
+    tags: true
+    repo: buzhou/masks-js
+
+before_deploy:
+  - npm run build
