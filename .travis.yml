@@ -9,10 +9,10 @@ deploy:
   provider: npm
   email: mutouji1@163.com
   api_key:
-    secure:
+    secure: 69f29181-326a-4c76-8ecb-8b5a0c138666
   on:
     tags: true
-    repo: buzhou/masks-js
+    repo: buzhoumountain/masks-js
 
 before_deploy:
   - npm run build
